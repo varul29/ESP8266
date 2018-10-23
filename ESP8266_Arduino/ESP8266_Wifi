@@ -26,11 +26,3 @@ void reconnectWiFi(){
       }
          Serial.println("Connected to: \t");
          Serial.println(WiFi.localIP());
-//     
-//      if(connect==true){
-//        Serial.println("Connected to: \t");
-//        Serial.println(WiFi.localIP());
-//        }else{
-//          Serial.println("not connected");
-//          }
-}
