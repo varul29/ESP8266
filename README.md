@@ -18,8 +18,20 @@ First check and create the setup which help us to connect the I2C or any kind of
   
   ## Issues 
   
+     Error downloading http://downloads.arduino.cc/packages/package_index.json
+     java.lang.RuntimeException: java.lang.Exception: Error downloading http://downloads.arduino.cc/packages/package_index.json
+	   at cc.arduino.contributions.packages.ui.ContributionManagerUI.lambda$onUpdatePressed$1(ContributionManagerUI.java:150)
+	   at java.lang.Thread.run(Thread.java:748)
+     Caused by: java.lang.Exception: Error downloading http://downloads.arduino.cc/packages/package_index.json
+	   at cc.arduino.contributions.DownloadableContributionsDownloader.download(DownloadableContributionsDownloader.java:139)
+	   at cc.arduino.contributions.packages.ContributionInstaller.download(ContributionInstaller.java:333)
+	   at cc.arduino.contributions.packages.ContributionInstaller.downloadIndexAndSignature(ContributionInstaller.java:307)
+	   at cc.arduino.contributions.packages.ContributionInstaller.updateIndex(ContributionInstaller.java:285)
+	   at cc.arduino.contributions.packages.ui.ContributionManagerUI.lambda$onUpdatePressed$1(ContributionManagerUI.java:146)
+	   ... 1 more
+  
   ### Issue 1
-  If still the problem is there while installing the esp8266 board use the following steps 
+  If mentioned above issue appears on the black console and while installing, the esp8266 board does not appears, then use the following steps:
   
  - Open Arduino IDE and click on "File -> Preferences"
  - In preferences on the link mentioned below in snap
