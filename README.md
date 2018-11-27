@@ -42,4 +42,4 @@ First check and create the setup which help us to connect the I2C or any kind of
  
  - Restart Arduino IDE
  
-  Finally we will be able to install the ESP8266 board.
+  Finally, we will be able to install the ESP8266 board and run the code.
