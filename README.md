@@ -21,7 +21,7 @@ First check and create the setup which help us to connect the I2C or any kind of
   ### Issue 1
   If still the problem is there while installing the esp8266 board use the following steps 
   
- - Open you IDE and click on "File -> Preferences"
+ - Open Arduino IDE and click on "File -> Preferences"
  - In preferences on the link mentioned below in snap
  
  ![alt text](https://github.com/varul29/ESP8266/blob/master/ESP8266_Snaps/Issue.PNG)
